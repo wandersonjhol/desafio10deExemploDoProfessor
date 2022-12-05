@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 250px; /*É o tamanho mínimo que vai se adaptar em uma tela.*/
+            max-width: 800px;/*É o tamanho máximo que irá se adaptar em uma tela. */
+            margin: auto;
+        }
+        img{
+            width: 100%; /*Faz com que a imagem se adapta até a tela de 320px.. top de mais funciona muito bem.*/
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt nisi fugiat facere. Libero, voluptas culpa! Obcaecati temporibus aspernatur at, quaerat beatae saepe quas. Tenetur atque nisi quaerat ab facilis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero ipsa itaque officiis perferendis. Nemo cupiditate accusantium velit aut dolore temporibus eveniet quidem cum, reprehenderit laboriosam veniam vel dolor nihil.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam hic nam rerum? Consectetur vel numquam provident fugiat cumque suscipit perspiciatis voluptates velit nesciunt, consequuntur magni sunt, esse et temporibus aut.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="normal">
+        </picture>
+        
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt nisi fugiat facere. Libero, voluptas culpa! Obcaecati temporibus aspernatur at, quaerat beatae saepe quas. Tenetur atque nisi quaerat ab facilis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero ipsa itaque officiis perferendis. Nemo cupiditate accusantium velit aut dolore temporibus eveniet quidem cum, reprehenderit laboriosam veniam vel dolor nihil.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam hic nam rerum? Consectetur vel numquam provident fugiat cumque suscipit perspiciatis voluptates velit nesciunt, consequuntur magni sunt, esse et temporibus aut.</p>
+    </main>
+</body>
+</html>
